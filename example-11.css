@@ -5,14 +5,33 @@
 
 /* Example 11 */
 
-.header {}
-
-.main-content {}
+.header {
+	float: left;
+	width:100%;
+}
+.logo {
+	float: left;
+}
+.navigation {
+	float: right;
+}
+.main-content {
+	float: left;
+	width: 100%;
+}
 /* hint! */
 
-.post {}
+.post {
+	float:left;
+	width: 100%;
+}
 /* hint! */
 
-.image {}
+.image {
+	float: left;
+}
 
-.post_excerpt {}
+.post_excerpt {
+	float: right;
+
+}
