@@ -10,24 +10,29 @@
 	margin: 0 auto;
 }
 
+.header {
 
-.header {}
+}
 
 .sidebar {
-	/* hint! */
+	float: right;
+	width: 250px;
+	height:250px;
 }
 
 .main-content {
-	/* hint! */
+	float: left;
+	width:634px;
+	height:250px;
 }
 
 .footer {
-	/* hint! */
+	clear:both;
 }
 
-/*
+
 div {
 	margin: 20px;
 }
-*/
+
 /* uncomment me to see if you missed anything! */

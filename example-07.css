@@ -11,18 +11,48 @@
 }
 
 
-.header {}
+.header {
+	float: left;
+	width: 100%;
+	overflow: auto;
+}
 
-.logo {}
+.logo {
+	float: left;
+	width: 30%;
+}
 
-.navigation {}
+.navigation {
+	float: right;
+	width: 60%;
+}
 
-.sidebar {}
+.sidebar {
+	float:left;
+	/*height:300px;*/
+	width: 30%;
+}
 
-.main-content {}
+.main-content {
+	width: 100%;
+	float: left;
+	height:auto;
+}
 
-.sub-content {}
+.sub-content {
+	float: right;
+	width: 60%;
+	/*height: 100px;*/
+	/*margin-top: 20px;*/
+}
 
-.sub-content-2 {}
+.sub-content-2 {
+	float: right;
+	/*height:100px;*/
+	width: 60%;
+	
+}
 
-.footer {}
+.footer {
+	clear: both;
+}
